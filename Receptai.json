@@ -1,0 +1,28 @@
+{"Mesa":[
+    {
+        "id":1,
+        "name":"Cepelinai su jautiena", 
+        "image":"https://g3.dcdn.lt/images/pix/cepelinai-80268533.jpg", 
+        "ingridientai":"500g nugarines, kiausiniai 1vnt, svogunai 1vnt, cesnakai 2 skilteles, mairunas 0.3 arbatinis saukstelis, druska, pipirai", 
+        "paruosimas":"1. Jautienos nugarinę supjaustykite stambesniais gabaliukais. Svogūną sumalkite mėsmale, įmuškite kiaušinį, sudėkite prieskonius ir viską gerai išminkykite. Įdaras paruoštas.Toliau gaminkite cepelinus su šiuo įdaru taip, kaip esate įpratę." },
+    {
+        "id":2,
+        "name":"Steikas",
+        "image":"http://cdn.differencebetween.net/wp-content/uploads/2016/05/640px-Tradicinis_didkepsnis_restorane_STEAKHOUSE_HAZIENDA.jpg",
+        "ingridientai":"steikas",
+        "paruosimas":"Iskepti"}
+],
+"Sriuba":[
+    {
+        "id":3,
+        "name":"Svogunu sriuba", 
+        "image":"https://www.lamaistas.lt/uploads/modules/recipes/thumb920x573/18047.jpg", 
+        "ingridientai":"Svogunaixd", 
+        "paruosimas":"Keptuvėje ištirpiname sviestą, sudedame supjaustytus svogūnus ir kepiname ant nedidelės ugnies apie 25 minutes arba kol svogūnai"},
+    {
+        "id":4,
+        "name":"Burokeliu sriuba", 
+        "image":"https://receptai.patarimupasaulis.lt/images/Sriubos/burokeliu-sriuba.jpg",
+        "ingridientai":"Burokai", 
+        "paruosimas":"Isvirti sriuba"}
+]}
