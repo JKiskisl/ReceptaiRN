@@ -18,7 +18,8 @@ function ListScreen ({navigation, route}) {
           <View style={styles.container}>
             {Receptai[kategorija].map((item)=>(
               <View>
-                <Button title={item.name} onPress={()=> navigation.navigate('Deets', {receptas: item.name})}/>
+                <Button title={item.name} onPress={()=> navigation.navigate('Deets', 
+                {itemname: item})}/>
               </View>
             ))}
 

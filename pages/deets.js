@@ -14,20 +14,18 @@ function DeetsScreen({navigation, route}){
 
     const {receptas} = route.params;
 
-
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <View style={styles.container}>
+        {/* <View style={styles.container}>
           {Receptai[receptas].map((item)=>(
             <View>
               <Button title={item.name}/>
             </View>
           ))}
 
-        </View>
+        </View> */}
         <Text>
-          RecipesSubScreen {route.params.receptas}
-          
+          RecipesSubScreen {route.params.itemname.paruosimas}
         </Text>
         <Button
           title="Go to Home"
