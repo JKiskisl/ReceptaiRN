@@ -16,16 +16,15 @@ function ListScreen ({navigation, route}) {
       return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <View style={styles.container}>
-            {Receptai.kategorija.map((item)=>(
+            {Receptai[kategorija].map((item)=>(
               <View>
-                <Button title={item.name}/>
+                <Button title={item.name} onPress={()=> navigation.navigate('Deets', {receptas: item.name})}/>
               </View>
             ))}
 
           </View>
           <Text>
             RecipesSubScreen {route.params.kategorija}
-            
             
           </Text>
           <Button
