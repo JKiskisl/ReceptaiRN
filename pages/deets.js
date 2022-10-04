@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Button, Alert } from 'react-native';
+import { StyleSheet, Text, View, Button, Alert, Image, ImageBackground } from 'react-native';
 import React from 'react';
 import { NavigationContainer, useRoute } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -16,17 +16,14 @@ function DeetsScreen({navigation, route}){
 
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        {/* <View style={styles.container}>
-          {Receptai[receptas].map((item)=>(
-            <View>
-              <Button title={item.name}/>
-            </View>
-          ))}
-
-        </View> */}
         <Text>
-          RecipesSubScreen {route.params.itemname.paruosimas}
+          Recepto paruosimas:{route.params.itemname.paruosimas}
         </Text>
+        <View style={styles.container}>
+            <Text>
+                Recepto ingridientai: {route.params.itemname.ingridientai}
+            </Text>
+        </View>
         <Button
           title="Go to Home"
           onPress={() => navigation.navigate('Home', {HomeScreen})}
