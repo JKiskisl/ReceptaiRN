@@ -8,6 +8,7 @@ import HomeScreen from './pages/home';
 import listRecipeCategory from './pages/listRecipecategories';
 import listRecipeSubCat from './pages/listRecipeSubCat.js';
 import Deets from './pages/deets.js';
+import Comments from './pages/Comments';
 
 import Receptai from './Receptai.json';
 
@@ -23,6 +24,7 @@ function App() {
         <Stack.Screen name="Recipes" component={listRecipeCategory} />
         <Stack.Screen name="SubRecipes" component={listRecipeSubCat} />
         <Stack.Screen name="Deets" component={Deets}/>
+        <Stack.Screen name="Comments" component={Comments}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
